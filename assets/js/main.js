@@ -1,0 +1,1 @@
+console.log("alo, burada kimse var mı?")

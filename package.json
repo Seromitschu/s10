@@ -1,0 +1,25 @@
+{
+    "name": "personal-website",
+    "description": "Simple personal website built with Nuxt.js & Tailwind CSS.",
+    "license": "MIT",
+    "version": "1.0.0",
+    "author": {
+        "name": "Seromitschu",
+        "email": "53serhatkuk@gmail.com",
+        "url": "https://s10.vercel.app"
+    },
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@nuxtjs/dotenv": "^1.4.1",
+        "nuxt": "^2.15.8",
+        "vue-awesome": "^4.5.0"
+    },
+    "devDependencies": {
+        "@nuxtjs/tailwindcss": "^4.0.0"
+    }
+}

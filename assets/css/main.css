@@ -1,0 +1,130 @@
+@import"https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap";
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray: #303030;
+    --blue: #9CEAF3;
+    --pink: #F78F85;
+    --red: #F5544D;
+    --yellow: #FABD2F;
+    --green: #47D043;
+    --orange: #FD6A02;
+    --lightOrange: #F9812A;
+    --navyBlue: #6A77D2;
+    --turquoise: #9CEAF3;
+    --sucessGreen: #5AD786;
+    --errorRed: #F78F85;
+
+    --discord: #7289da;
+    --spotify: #1DB954;
+}
+
+::-webkit-scrollbar {
+   width: 0px;
+}
+
+::selection {
+    background-color: transparent;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Poppins";
+    transition: all 0.1s linear;
+    background: var(--black)
+}
+
+img {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+a:hover {
+    text-decoration: none;
+    color: unset
+}
+
+@media only screen and (min-width: 640px) {
+    .padding {
+        padding-left: 28%;
+        padding-right: 28%
+    }
+
+    .section {
+        padding-top: 6%;
+        padding-bottom: 2.5%
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .padding {
+        padding-left: 3%;
+        padding-right: 3%
+    }
+
+    .section {
+        padding-top: 3rem;
+        padding-bottom: 3rem
+    }
+}
+
+.boldText {
+    color: var(--white);
+    font-size: 24px
+}
+
+.normalText {
+    color: var(--white);
+    font-size: 19px
+}
+
+.smallText {
+    color: var(--white);
+    font-size: 17px
+}
+
+.thinText {
+    color: var(--white);
+    font-size: 16px
+}
+
+.navbarBtn {
+    display: inline-block;
+}
+
+.generalBtn {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    background: var(--gray);
+    width: 135px;
+    height: 30px;
+    color: var(--black);
+    display: inline-block;
+    transition: all 0.1s linear;
+    border-radius: 10px;
+}
+
+.generalBtn:hover {
+    background: var(--gray);
+    transition: all 0.1s linear
+}
+
+.generalBtnText {
+    margin-top: -10px
+}
+
+.ImageWp {
+    width: 100%;
+    height: 500px;
+    object-fit: cover
+}
