@@ -130,6 +130,21 @@ a:hover {
 }
 
 .homeBtn {
+    text-align: center;
+    width: 75px;
+    border-radius: 6px;
+    background-color: var(--red);
+}
+
+.aboutBtn {
+    text-align: center;
+    width: 75px;
+    border-radius: 6px;
+    background-color: var(--red);
+}
+
+.contactBtn {
+    text-align: center;
     width: 75px;
     border-radius: 6px;
     background-color: var(--red);
