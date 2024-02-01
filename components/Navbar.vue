@@ -1,7 +1,7 @@
 <template>
     <div class="navbar padding mt-9">
-    <p class="border-red-500 border-b-2 border-opacity-100 hover:border-opacity-70 navbarBtn thinText display-inline-block mr-5"><a href="/">Home</a></p>
-    <p class="border-green-500 border-b-2 border-opacity-100 hover:border-opacity-70 navbarBtn thinText display-inline-block mr-5"><a href="/about">About</a></p>
-    <p class="border-blue-500 border-b-2 border-opacity-100 hover:border-opacity-70 navbarBtn thinText display-inline-block mr-5"><a href="/contact">Contact</a></p>
+    <p class="homeBtn navbarBtn thinText display-inline-block mr-5"><a href="/">Home</a></p>
+    <p class=aboutBtn navbarBtn thinText display-inline-block mr-5"><a href="/about">About</a></p>
+    <p class="contactBtn navbarBtn thinText display-inline-block mr-5"><a href="/contact">Contact</a></p>
     </div>
 </template>
