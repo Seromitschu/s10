@@ -4,18 +4,16 @@
 <p class="normalText opacity-60 mt-4">I’m currently working as a web developer for <a href="https://econut.repl.co" target="_blank" class="border-gray-500 border-b-2 border-opacity-100 hover:border-opacity-70">EcoNut</a> and <a href="https://manivela-company.netlify.app" target="_blank" class="border-gray-500 border-b-2 border-opacity-100 hover:border-opacity-70">Manivela</a>.</p>
 <p class="normalText opacity-60 mt-4">I’m 18 years old Self-taught web and app developer in <a href="https://www.google.com/search?q=turkey" target="_blank" class="border-gray-500 border-b-2 border-opacity-100 hover:border-opacity-70">Turkey</a>, I usually make and share open-source projects. Also share all my open-source projects on GitHub.</p>
 <p class="normalText opacity-60 mt-4">If you want to know more about me, <a href="/about" class="border-gray-500 border-b-2 border-opacity-100 hover:border-opacity-70">click here</a>!</p>
-
-  <div class="status padding section">
-  <p class="boldText"><b>Activities</b></p>
-  <div id="statusComps" class="mt-4">
-  <span :class="`w-3 h-3 rounded-full inline-block mr-1 ${getDiscordStatus}`"></span>
-  <span class="normalText opacity-60">{{ getDiscordStatusDetails }}</span>
-  </div>
-  <div id="statusComps" class="mt-4">
-  <span :class="`w-3 h-3 rounded-full inline-block mr-1 ${getSpotifyStatus}`"></span>
-  <span class="normalText opacity-60">{{ getSpotifyStatusDetails }}</span>
-  </div>
-  </div>
+<div class="status padding section">
+<div id="statusComps" class="mt-4">
+<span :class="`w-3 h-3 rounded-full inline-block mr-1 ${getDiscordStatus}`"></span>
+<span class="normalText opacity-60">{{ getDiscordStatusDetails }}</span>
+</div>
+<div id="statusComps" class="mt-4">
+<span :class="`w-3 h-3 rounded-full inline-block mr-1 ${getSpotifyStatus}`"></span>
+<span class="normalText opacity-60">{{ getSpotifyStatusDetails }}</span>
+</div>
+</div>
 </div>
 </template>
   
