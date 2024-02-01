@@ -6,7 +6,8 @@
 <p class="normalText opacity-60 mt-4">If you want to know more about me, <a href="/about" class="border-gray-500 border-b-2 border-opacity-100 hover:border-opacity-70">click here</a>!</p>
 <br>
 <span :class="`w-3 h-3 rounded-full inline-block mr-1 ${getDiscordStatus}`"></span>
-<span class="normalText opacity-60">{{ getDiscordStatusDetails }}</span> - 
+<span class="normalText opacity-60">{{ getDiscordStatusDetails }}</span>
+<br>
 <span :class="`w-3 h-3 rounded-full inline-block mr-1 ${getSpotifyStatus}`"></span>
 <span class="normalText opacity-60">{{ getSpotifyStatusDetails }}</span>
 </div>
