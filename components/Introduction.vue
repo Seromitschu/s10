@@ -2,6 +2,7 @@
 <div class="about padding section">
 <p class="" style="font-weight: 700;"><b>Hi, I’m Serhat 👋</b><br><p class="normalText opacity-40">⭐ Self-taught web and app developer.</p></p>
 <br>
+<p class="opacity-40">------------------------------------------------</p>
 <span :class="`w-3 h-3 rounded-full inline-block mr-1 ${getDiscordStatus}`"></span>
 <span class="border-green-500 border-b-2 border-opacity-100 hover:border-opacity-70 normalText opacity-60">{{ getDiscordStatusDetails }}</span> - 
 <span :class="`w-3 h-3 rounded-full inline-block mr-1 ${getSpotifyStatus}`"></span>
