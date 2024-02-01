@@ -57,7 +57,7 @@
             const SpotifyTrackId = this.lanyard.spotify.track_id
             return "Listening to " + spotifySong + " by " + spotifyArtist
           case false:
-            return "Not listening Spotify"
+            return ""
           default:
             return ""
         }
