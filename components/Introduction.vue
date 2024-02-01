@@ -84,7 +84,7 @@
           case true:
             return "bg-green-500"
           case false:
-            return "bg-red-500"
+            return ""
           default:
             return ""
         }
