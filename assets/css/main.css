@@ -140,12 +140,12 @@ a:hover {
     text-align: center;
     width: 75px;
     border-radius: 6px;
-    background-color: var(--red);
+    background-color: var(--navyBlue);
 }
 
 .contactBtn {
     text-align: center;
     width: 75px;
     border-radius: 6px;
-    background-color: var(--red);
+    background-color: var(--yellow);
 }
