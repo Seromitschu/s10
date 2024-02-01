@@ -130,5 +130,6 @@ a:hover {
 }
 
 .homeBtn {
+    height: 100px;
     background-color: var(--red);
 }
