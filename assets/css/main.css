@@ -133,14 +133,14 @@ a:hover {
 
 .homeBtn {
     text-align: center;
-    width: 95px;
+    width: 87px;
     border-radius: 6px;
     background-color: var(--gray);
 }
 
 .aboutBtn {
     text-align: center;
-    width: 95px;
+    width: 91px;
     border-radius: 6px;
     background-color: var(--gray);
 }
