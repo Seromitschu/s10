@@ -69,9 +69,9 @@
       getDiscordStatus() {
         switch (this.lanyard.discord_status) {
           case "online":
-            return "bg-green-500"
+            return "border-green-500 border-b-2 border-opacity-100 hover:border-opacity-70 normalText opacity-60 bg-green-500"
           case "idle":
-            return "bg-yellow-500"
+            return "border-yellow-500 border-b-2 border-opacity-100 hover:border-opacity-70 normalText opacity-60 bg-yellow-500"
           case "dnd":
             return "bg-red-500"
           default:
