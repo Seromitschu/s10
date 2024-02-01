@@ -134,19 +134,19 @@ a:hover {
     text-align: center;
     width: 80px;
     border-radius: 6px;
-    background-color: var(--red);
+    background-color: var(--gray);
 }
 
 .aboutBtn {
     text-align: center;
     width: 80px;
     border-radius: 6px;
-    background-color: var(--navyBlue);
+    background-color: var(--gray);
 }
 
 .contactBtn {
     text-align: center;
     width: 80px;
     border-radius: 6px;
-    background-color: var(--yellow);
+    background-color: var(--gray);
 }
