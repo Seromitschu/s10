@@ -154,6 +154,6 @@ a:hover {
 
 .homeTitleDv {
     border-radius: 8px;
-    width: 640px;
+    max-width: 640px;
     background-color: var(--gray);
 }
