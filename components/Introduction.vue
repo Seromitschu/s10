@@ -58,7 +58,7 @@
             const spotifySong = this.lanyard.spotify.song.split("(")[0]
             const spotifyArtist = this.lanyard.spotify.artist.split("(")[0]
             const SpotifyTrackId = this.lanyard.spotify.track_id
-            return "Listening to " + spotifySong + " by " + spotifyArtist
+            return "Listening to " + spotifySong
           case false:
             return ""
           default:
