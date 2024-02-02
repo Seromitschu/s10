@@ -1,6 +1,6 @@
 <template>
 <div class="about padding section">
-<div class="homeTitleDv"><p class="boldText" style="font-weight: 500;">Hi, I’m Serhat 👋</p></div><p class="normalText opacity-40">⭐ Self-taught web and app developer.</p>
+<div class="homeTitleDv opacity-80"><p class="boldText" style="font-weight: 500;">Hi, I’m Serhat 👋</p></div><p class="normalText opacity-40">⭐ Self-taught web and app developer.</p>
 <br>
 <span :class="`w-3 h-3 rounded-full inline-block mr-1 ${getDiscordStatus}`"></span>
 <span class="border-green-500 border-b-2 border-opacity-100 hover:border-opacity-70 normalText opacity-60">{{ getDiscordStatusDetails }}</span> - 
