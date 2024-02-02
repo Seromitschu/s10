@@ -4,10 +4,10 @@
 <br>
 <div class="homeTitleDv">
 <span :class="`w-3 h-3 rounded-full inline-block mr-1 ml-1 mt-1 ${getDiscordStatus}`"></span>
-<span class="border-green-500 border-b-2 border-opacity-100 hover:border-opacity-70 normalText opacity-60">{{ getDiscordStatusDetails }}</span>
+<span class="border-green-500 border-b-2 border-opacity-100 hover:border-opacity-70 normalText opacity-60 mr-1 ml-1 mt-1">{{ getDiscordStatusDetails }}</span>
 <br>
 <span :class="`w-3 h-3 rounded-full inline-block mr-1 ml-1 mt-1 ${getSpotifyStatus}`"></span>
-<span class="border-green-500 border-b-2 border-opacity-100 hover:border-opacity-70 normalText opacity-60">{{ getSpotifyStatusDetails }}</span>
+<span class="border-green-500 border-b-2 border-opacity-100 hover:border-opacity-70 normalText opacity-60 mr-1 ml-1 mt-1">{{ getSpotifyStatusDetails }}</span>
 </div>
 <br>
 <p class="normalText opacity-60 mt-4">I’m currently working as a web developer for <a href="https://econut.repl.co" target="_blank" class="border-gray-500 border-b-2 border-opacity-100 hover:border-opacity-70">EcoNut</a> and <a href="https://manivela-company.netlify.app" target="_blank" class="border-gray-500 border-b-2 border-opacity-100 hover:border-opacity-70">Manivela</a>.</p>
