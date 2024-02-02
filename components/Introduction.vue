@@ -3,10 +3,10 @@
 <p class="boldText" style="font-weight: 500;">Hi, I’m Serhat 🐲<br><p class="normalText opacity-40">⭐ Self-taught web and app developer.</p></p>
 <br>
 <div class="homeTitleDv">
-<span :class="`w-3 h-3 rounded-full inline-block mr-1 ${getDiscordStatus}`"></span>
+<span :class="`w-3 h-3 rounded-full inline-block mr-1 ml-1 mt-1 ${getDiscordStatus}`"></span>
 <span class="border-green-500 border-b-2 border-opacity-100 hover:border-opacity-70 normalText opacity-60">{{ getDiscordStatusDetails }}</span>
 <br>
-<span :class="`w-3 h-3 rounded-full inline-block mr-1 ${getSpotifyStatus}`"></span>
+<span :class="`w-3 h-3 rounded-full inline-block mr-1 ml-1 mt-1 ${getSpotifyStatus}`"></span>
 <span class="border-green-500 border-b-2 border-opacity-100 hover:border-opacity-70 normalText opacity-60">{{ getSpotifyStatusDetails }}</span>
 </div>
 <br>
