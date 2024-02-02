@@ -153,6 +153,7 @@ a:hover {
 }
 
 .homeTitleDv {
-    border-radius: 10px;
+    border-radius: 8px;
+    width: 400px;
     background-color: var(--red);
 }
