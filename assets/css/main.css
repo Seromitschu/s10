@@ -135,19 +135,19 @@ a:hover {
     text-align: center;
     width: 85px;
     border-radius: 6px;
-    background-color: var(--gray);
+    background-color: var(--navyBlue);
 }
 
 .aboutBtn {
     text-align: center;
     width: 89px;
     border-radius: 6px;
-    background-color: var(--gray);
+    background-color: var(--navyBlue);
 }
 
 .contactBtn {
     text-align: center;
     width: 93px;
     border-radius: 6px;
-    background-color: var(--gray);
+    background-color: var(--navyBlue);
 }
