@@ -151,3 +151,8 @@ a:hover {
     border-radius: 6px;
     background-color: var(--navyBlue);
 }
+
+.homeTitleDv {
+    border-radius: 10px;
+    background-color: var(--red);
+}
